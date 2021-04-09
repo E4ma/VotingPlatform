@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VotingPlatform/static/css/main.15e881ca.chunk.css",
+    "main.js": "/VotingPlatform/static/js/main.6d8074ad.chunk.js",
+    "main.js.map": "/VotingPlatform/static/js/main.6d8074ad.chunk.js.map",
+    "runtime-main.js": "/VotingPlatform/static/js/runtime-main.e13062f6.js",
+    "runtime-main.js.map": "/VotingPlatform/static/js/runtime-main.e13062f6.js.map",
+    "static/css/2.658248ec.chunk.css": "/VotingPlatform/static/css/2.658248ec.chunk.css",
+    "static/js/2.cbf5962d.chunk.js": "/VotingPlatform/static/js/2.cbf5962d.chunk.js",
+    "static/js/2.cbf5962d.chunk.js.map": "/VotingPlatform/static/js/2.cbf5962d.chunk.js.map",
+    "static/js/3.7471e7ff.chunk.js": "/VotingPlatform/static/js/3.7471e7ff.chunk.js",
+    "static/js/3.7471e7ff.chunk.js.map": "/VotingPlatform/static/js/3.7471e7ff.chunk.js.map",
+    "index.html": "/VotingPlatform/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/VotingPlatform/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.15e881ca.chunk.css.map": "/VotingPlatform/static/css/main.15e881ca.chunk.css.map",
+    "static/js/2.cbf5962d.chunk.js.LICENSE.txt": "/VotingPlatform/static/js/2.cbf5962d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e13062f6.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.cbf5962d.chunk.js",
+    "static/css/main.15e881ca.chunk.css",
+    "static/js/main.6d8074ad.chunk.js"
+  ]
+}
