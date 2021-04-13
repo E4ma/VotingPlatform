@@ -1,41 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import VotingCard from "./components/VotingCard.js";
-import teamsJson from "./lib/teams.json";
+import React from "react";
+import { Container } from "react-bootstrap";
 import "./assets/scss/styles.scss";
 import "bootstrap/dist/css/bootstrap.css";
+import VotingCard from "./components/VotingCard";
 
 function App() {
-  let [teams, setTeams] = useState([]);
-
-  useEffect(() => {
-    setTeams(teamsJson);
-  }, []);
-
-  function incrementVoteCount(teamId) {
-    teams = teams.map((team) => {
-      if (team._id === teamId) {
-        team.votes = team.votes + 1;
-      }
-      return team;
-    });
-    setTeams(teams);
-  }
 
   return (
     <Container className="app">
-      <Row>
-        {teams.map((team) => {
-          return (
-            <Col md={4}>
-              <VotingCard
-                team={team}
-                incrementVoteCount={(teamId) => incrementVoteCount(teamId)}
-              />
-            </Col>
-          );
-        })}
-      </Row>
+      <VotingCard />
     </Container>
   );
 }
